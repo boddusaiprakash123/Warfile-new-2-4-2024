@@ -3,8 +3,8 @@ os: linux
 files:
   - source: .
     destination: /opt/tomcat9/webapps
-hooks:
-  ApplicationStart:
+#hooks:
+ # ApplicationStart:
     #    - location: Not_requried
     # timeout: 300
     # runas: root
