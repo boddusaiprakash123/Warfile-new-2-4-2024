@@ -5,7 +5,7 @@ files:
     destination: /opt/tomcat9/webapps
 hooks:
   ApplicationStart:
-    - location: /opt/tomcat9/bin/startup.sh
-      timeout: 300
-      runas: root
+    #    - location: Not_requried
+    # timeout: 300
+    # runas: root
 
