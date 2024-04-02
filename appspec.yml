@@ -1,0 +1,11 @@
+version: 0.0
+os: linux
+files:
+  - source: .
+    destination: /opt/tomcat9/webapps
+hooks:
+  ApplicationStart:
+    - location: /opt/tomcat9/bin/startup.sh
+      timeout: 300
+      runas: root
+
